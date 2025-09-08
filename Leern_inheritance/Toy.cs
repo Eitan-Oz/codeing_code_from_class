@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Leern_inheritance
 {
     internal class Toy
     {
-
+        protected string name;
         protected double price;
         protected string color;
       
-        public Toy(int price, string color)
+        public Toy(string name, int price, string color)
         {
+            this.name = name;
             this.price = price;
             this.color = color;
         }
