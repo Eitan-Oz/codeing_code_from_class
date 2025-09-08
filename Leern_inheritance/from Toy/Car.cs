@@ -30,7 +30,7 @@ namespace Leern_inheritance.from_Toy
         }
         public override string ToString()
         {
-            string str=$"Car: {this.name} \nbase Price: {this.baseprice} color: {this.color}\n";
+            string str="Car: " + base.ToString() ;
             if (size == 0) {str += "Size: Small";}
             else if (size == 1){str += "Size: Medium";}
             else{str += "Size: Large";}
