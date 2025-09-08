@@ -9,24 +9,28 @@ namespace Leern_inheritance
     internal class Toy
     {
         protected string name;
-        protected double price;
+        protected double baseprice;
         protected string color;
       
-        public Toy(string name, int price, string color)
+        public Toy(string name, double price, string color)
         {
             this.name = name;
-            this.price = price;
+            this.baseprice = price;
             this.color = color;
         }
 
         public double Price()
         {
-            return price;
+            return this.baseprice;
         }
 
         public void UpdatePrice(double percent)
         {
-            price*= ((100 +  percent) / 100) ;
+            baseprice += this.baseprice*(percent/100) ;
+        }
+        public override string ToString()
+        {
+            return $"{name},\nBase Price: {baseprice},\nColor: {color}";
         }
     }
 }
