@@ -2,23 +2,46 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void Equal_Clicked(object sender, EventArgs e)
         {
-            count++;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void plus_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void holding_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clear_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void minus_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void multiply_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void divide_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 

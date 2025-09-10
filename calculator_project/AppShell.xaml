@@ -8,7 +8,7 @@
     Title="calculator_project">
 
     <ShellContent
-        Title="Home"
+        Title="calculator"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
