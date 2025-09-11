@@ -9,13 +9,13 @@
             Spacing="25">
             <Editor x:Name="input1" Placeholder="Enter first number" Keyboard="Numeric"/>
 
-            <Button x:Name="Equal" Text="=" Clicked="Equal_Clicked"/>
-            <Button x:Name="Clear" Text="C" Clicked="Clear_Clicked"/>
-            <Button x:Name="plus" Text="+" Clicked="plus_Clicked"/>
-            <Button x:Name="minus" Text="-" Clicked="minus_Clicked"/>
-            <Button x:Name="multiply" Text="×" Clicked="multiply_Clicked"/>
-            <Button x:Name="divide" Text="÷" Clicked="divide_Clicked"/>
-            <Button x:Name="holding" Text="№" Clicked="holding_Clicked" />
+            <Button x:Name="Equal" FontSize="15" Text="=" Clicked="Equal_Clicked"/>
+            <Button x:Name="Clear" FontSize="15" Text="C" Clicked="Clear_Clicked"/>
+            <Button x:Name="plus" FontSize="15" Text="+" Clicked="plus_Clicked"/>
+            <Button x:Name="minus" FontSize="15" Text="-" Clicked="minus_Clicked"/>
+            <Button x:Name="multiply" FontSize="15" Text="×" Clicked="multiply_Clicked"/>
+            <Button x:Name="divide" FontSize="15" Text="÷" Clicked="divide_Clicked"/>
+            <Button x:Name="holding" FontSize="15" Text="Xⁿ" Clicked="holding_Clicked" />
             
             
             <Label x:Name="output" Text="Result will be shown here" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" Margin="45" />
