@@ -25,7 +25,11 @@ namespace ConsoleApp1
             
         }
 
-        
+        public override void HowITSound()
+        {
+            Console.WriteLine("sound: Van Van");
+        }
+
     }
 
 }

@@ -18,6 +18,7 @@ namespace ConsoleApp1
             this.basePrice = basePrice;
             this.color = color;
         }
+
         public virtual double Price()
         {
             return this.basePrice;
@@ -26,6 +27,12 @@ namespace ConsoleApp1
         {     
             this.basePrice += this.basePrice * (percent / 100);
         }
+
+        public virtual void HowITSound()
+        {
+            Console.BackgroundColor = ConsoleColor.White;
+        }
+
         public override string ToString()
         {
             string str = this.name + " base price = " + this.basePrice + " " + this.color + " ";
