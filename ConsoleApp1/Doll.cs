@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Doll : toy
+    public class Doll : Toy
     {
         private int accNums;        
         private double accPrice;  

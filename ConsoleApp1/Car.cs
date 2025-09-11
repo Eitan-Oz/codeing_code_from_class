@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Car : toy
+    public class Car : Toy
     {
         private int size;  
         public Car(string name, double basePrice, string color, int size)

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class toy
+    public class Toy
     {
         protected string name;
         protected double basePrice;
         protected string color;
 
-        public toy(string name, double basePrice, string color)
+        public Toy(string name, double basePrice, string color)
         {
             this.name = name;
             this.basePrice = basePrice;
